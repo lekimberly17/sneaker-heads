@@ -25,3 +25,97 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+
+
+/* - rgb(243, 183, 106) orange
+- yellow
+- rgb(241, 117, 0) redish
+- red
+- rgb(13, 110, 0) green
+- rgb(109, 0, 251) purple
+- rgb(219, 255, 57) yellow
+- rgb(116, 201, 241)
+- rgb(251, 64, 64) */
+body {
+    background-image: url(https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    text-decoration: underline;
+    font-size: 36px;
+    color: rgb(109, 0, 251);
+    text-shadow: rgb(219, 255, 57) 10px 0 10px;
+}
+
+.header-container {
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(116, 201, 241), rgb(251, 64, 64));
+}
+
+
+
+#row1-section2 {
+    background-color: rgb(116, 201, 241);
+    color: white;
+    font-family: Copperplate;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(241, 117, 0);
+}
+
+
+#jordans-1 {
+    border-right: 2px solid blue;
+    border-bottom: 2px solid blue;
+    width: 100%;
+    height: auto;
+
+
+}
+
+#row1  {
+    width: 60%;
+
+}
+
+#row2 {
+    width: 60%;
+    margin-left: auto;
+}
+
+#row2-section2 {
+    background-color: rgb(251, 64, 64);
+    color: white;
+    font-family: Copperplate;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(13, 110, 0);
+}
+
+
+#jordans-2 {
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    width: 100%;
+    height: auto;
+
+
+}
